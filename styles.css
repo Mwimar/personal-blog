@@ -62,9 +62,15 @@ body{
     max-width: 600px;
 }
 
+.home-content p {
+    font-size: 1rem;
+    margin: 20px 0 40px;
+}
+
 .home-content h1 {
     font-size: 56px;
     font-weight: 700;
+    line-height: 1.2;
 }
 
 .home-content h3 {
@@ -82,6 +88,7 @@ body{
 }
 
 .btn-box a{
+    position:relative;
     display:inline-flex;
     justify-content: center;
     align-items: center;
@@ -95,7 +102,41 @@ body{
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 1px;
+    z-index: 1;
+    transition: .5s;
 
 }
 
+.btn-box a:hover{
+    color:turquoise;
+}
 
+.btn-box a:nth-child(2){
+    background: transparent;
+    color:turquoise;
+}
+
+.btn-box a:nth-child(2):hover{
+    color: rgb(5, 8, 39);
+}
+
+.btn-box a:nth-child(2)::before {
+    background: turquoise;
+}
+
+.btn-box a::before{
+    content: '';
+    position:absolute;
+    top:0;
+    left:0;
+    width:0;
+    height:100%;
+    background: rgb(5, 8, 39);
+    z-index: -1;
+    transition:.5s;
+    overflow: hidden;
+}
+
+ .btn-box a:hover::before {
+    width:100%;
+ }
