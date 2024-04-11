@@ -29,7 +29,20 @@ body{
 .logo{
     text-decoration: none;
     font-size: 25px;
-    color:azure;
+    color:rgb(236, 248, 248);
     font-weight:600;
 
+}
+
+.navbar a{
+    color: rgb(236, 248, 248);
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 2s;
+}
+
+.navbar a:hover{
+    color:rgb(15, 15, 66);
 }
