@@ -9,7 +9,7 @@
 }
 
 body{
-    background: rgb(4, 156, 156);
+    background: rgb(5, 8, 39);
 }
 
 .header{
@@ -18,10 +18,18 @@ body{
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background-color: grey;
+    background-color: rgb(82, 80, 80);
     display:flex;
     justify-content: space-between;            
     align-items: center;
     z-index: 100%;
     
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 25px;
+    color:azure;
+    font-weight:600;
+
 }
