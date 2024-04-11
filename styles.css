@@ -10,6 +10,7 @@
 
 body{
     background: rgb(5, 8, 39);
+    color: rgb(236, 248, 248);
 }
 
 .header{
@@ -46,4 +47,11 @@ body{
 .navbar a:hover,
 .navbar .active{
     color:rgb(15, 15, 66);
+}
+
+.home{
+    display:flex;
+    align-items: center;
+    height:100vh;
+    padding:0 10%;
 }
