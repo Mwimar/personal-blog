@@ -1,4 +1,4 @@
-@import url();
+/* @import url(); */
 
 *{
     margin:0;
@@ -10,4 +10,18 @@
 
 body{
     background: rgb(4, 156, 156);
+}
+
+.header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: grey;
+    display:flex;
+    justify-content: space-between;            
+    align-items: center;
+    z-index: 100%;
+    
 }
