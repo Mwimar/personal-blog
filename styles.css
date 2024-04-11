@@ -150,6 +150,7 @@ body{
 
  }
  .home-sci a{
+    position: relative;
     display:inline-flex;
     justify-content: center;
     align-items: center;
@@ -161,4 +162,25 @@ body{
     font-size: 20px;
     color:turquoise;
     text-decoration:none;
+    z-index: 1;
+    overflow: hidden;
+ }
+
+ .home-sci a::before{
+    content:'';
+    position: absolute;
+    top:0;
+    left:0;
+    width:0;
+    height:100%;
+    background: turquoise;
+    z-index: -1;
+    transition:.5s;
+ }
+ .home-sci a:hover{
+    color:rgb(5, 8, 39);
+ }
+
+ .home-sci a:hover::before {
+    width:100%;
  }
