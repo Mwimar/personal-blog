@@ -18,7 +18,7 @@ body{
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background-color: rgb(82, 80, 80);
+    background-color: transparent;
     display:flex;
     justify-content: space-between;            
     align-items: center;
@@ -43,6 +43,7 @@ body{
     transition: 2s;
 }
 
-.navbar a:hover{
+.navbar a:hover,
+.navbar .active{
     color:rgb(15, 15, 66);
 }
