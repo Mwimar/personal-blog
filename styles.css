@@ -188,4 +188,19 @@ body{
     width:100%;
  }
 
- .home-imgHover{}
+ .home-imgHover{
+    position:absolute;
+    top:0;
+    right:0;
+    width: 500px;
+    height:100%;
+    background: transparent;
+    
+    transition:3s;
+ }
+
+ .home-imgHover:hover {
+    background: yellowgreen;
+    opacity:.8;
+    background: rgb(5, 8, 39);;
+ }
