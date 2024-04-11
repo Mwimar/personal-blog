@@ -58,7 +58,7 @@ body{
  
 
 .home-content{
-    background:greenyellow;
+    
     max-width: 600px;
 }
 
@@ -66,4 +66,11 @@ body{
     font-size: 56px;
     font-weight: 700;
 }
+
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color:turquoise;
+}
+
 
