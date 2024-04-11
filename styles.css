@@ -9,7 +9,7 @@
 }
 
 body{
-    background: rgb(5, 8, 39);
+    
     color: rgb(236, 248, 248);
 }
 
@@ -54,6 +54,9 @@ body{
     align-items: center;
     height:100vh;
     padding:0 10%;
+    background: url('/img/rick.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
 }
  
 
@@ -184,3 +187,5 @@ body{
  .home-sci a:hover::before {
     width:100%;
  }
+
+ .home-imgHover{}
